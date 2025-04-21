@@ -1,0 +1,44 @@
+# Ignore WordPress core directories
+wp-admin/
+wp-includes/
+
+# Ignore all content except custom plugin and theme
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+# Ignore everything in plugins except custom plugin
+wp-content/plugins/*
+!wp-content/plugins/wp-portfolio/
+
+# Ignore everything in themes except child theme
+wp-content/themes/*
+!wp-content/themes/twentytwentyfour-child/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore Composer and Node dependencies
+/vendor/
+/node_modules/
+
+# Ignore build files
+*.zip
+*.tar.gz
+
+# Ignore environment/config files
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

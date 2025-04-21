@@ -1,0 +1,11 @@
+/*
+ Theme Name:   Twenty Twenty-Four Child
+ Theme URI:    https://example.com/
+ Description:  Child theme of Twenty Twenty-Four with portfolio customizations
+ Author:       Nitesh Patel
+ Template:     twentytwentyfour
+ Version:      1.0
+ Text Domain:  twentytwentyfour-child
+*/
+
+@import url("../twentytwentyfour/style.css");
